@@ -17,6 +17,10 @@
 
 function square(arr) {
     // write your code here
+    let result=arr.map((value)=>{
+        return value*value
+    });
+    return result;
 }
 
 // 2) ------------------
